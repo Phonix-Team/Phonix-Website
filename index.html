@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonix team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- 首页部分 -->
+    <section id="home">
+        <h1>欢迎来到PhonixTeam团队网站</h1>
+        <p>我们是一支充满创意的团队，致力于为客户创造更好的游戏体验</p>
+        <p>探索我们的网站，了解我们的团队成员和激动人心的项目！</p>
+    </section>
+
+    <!-- 团队成员部分 -->
+    <section id="team">
+        <h2>团队成员</h2>
+        <div class="member" onmouseover="highlightMember(this)" onmouseout="unhighlightMember(this)">
+            <img src="member1.jpg" alt="Team Member 1">
+            <h3>LinMie233</h3>
+            <p>4年经验，拥有足够的指导能力</p>
+            <a href="#" class="social-link">查看更多</a>
+        </div>
+        <div class="member" onmouseover="highlightMember(this)" onmouseout="unhighlightMember(this)">
+            <img src="member2.jpg" alt="Team Member 2">
+            <h3>LK233</h3>
+            <p>拥有多年经验的专业人士，在Java领域有着卓越的造诣。</p>
+            <a href="#" class="social-link">查看更多</a>
+        </div>
+        
+        <!-- 添加更多团队成员 -->
+            <!-- New member -->
+            <div class="member">
+                <img src="member3.jpg" alt="New Member">
+                <h3>哈兰</h3>
+                <p>团队的后勤力量，曾开发了XGP3，第一次实现了多zfb共同运行</p>
+                <a href="#" class="social-link">查看更多</a>
+            </div>
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects">
+        <h2>项目</h2>
+        <div class="project" onclick="expandProject(this)">
+            <h3>Memory Client</h3>
+            <p>这个客户端是我们团队最出色以及销量最好的，成功解决了老版Novoline未能修复的问题，还编写了一系列的新功能，并重写了一系列视觉。</p>
+            <a href="#" class="project-link">了解详情</a>
+        </div>
+        <div class="project" onclick="expandProject(this)">
+            <h3>另一个项目</h3>
+            <p>我们为客户提供的解决方案，引以为傲，并荣获（添加奖项或成就）。</p>
+            <a href="#" class="project-link">了解详情</a>
+        </div>
+        <!-- 添加更多项目 -->
+    </section>
+
+    <!-- 联系我们部分 -->
+    <section id="contact">
+        <h2>联系我们</h2>
+        <p>有任何问题或合作的建议？请通过以下方式联系我们：</p>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>电话：+123 456 789</p>
+        <!-- 添加更多联系信息 -->
+    </section>
+
+    <!-- 在这里添加任何其他的页面部分，比如底部信息 -->
+
+    <script src="script.js"></script>
+</body>
+</html>
